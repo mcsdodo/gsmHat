@@ -17,7 +17,7 @@ setup(
   download_url = 'https://github.com/Civlo85/gsmHat/archive/v_04.tar.gz',
   keywords = ['Waveshare', 'GSM', 'GPS', 'Raspberry', 'Pi'],
   install_requires=[
-          'serial',
+          'pyserial',
           'datetime'
       ],
   classifiers=[
